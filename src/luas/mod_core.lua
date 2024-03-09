@@ -420,7 +420,7 @@ function installMod(modId)
 end
 
 function refreshRepos()
-    local reposIndex = 'https://raw.githubusercontent.com/UwUDev/balamod/master/repos.index'
+    local reposIndex = 'https://raw.githubusercontent.com/HeyImKyu/balamod/test_install/repos.index'
     local code, body = request(reposIndex)
 
     if code ~= 200 then
